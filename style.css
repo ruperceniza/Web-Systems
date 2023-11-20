@@ -1,0 +1,57 @@
+body {
+    background-image: url(arc.jpg);
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: hsl(0, 0%, 96%); 
+    border: 10px solid #551a8b;
+}
+
+.site-header {
+    background-color: #ff0000; 
+    color: #121212;
+    text-align: center;
+    padding: 20px 0;
+    border: 15px solid #551a8b;
+
+}
+
+.title {
+    font-size: 2em;
+}
+
+.movie-and-ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.advertisement-left, .advertisement-right {
+    flex: 1;
+    max-width: 200px;
+}
+
+.video-container {
+    flex: 4;
+    margin: 20px;
+    border: 1px solid #333; 
+}
+
+.personal-story p {
+    font-size: 2em;
+    line-height: 1.6;
+}
+
+.personal-story img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.advertisements .ad-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
